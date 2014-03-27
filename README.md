@@ -3,18 +3,21 @@ scrape-liz
 
 demo of scraping
 
-1. Use with Python 2.7
-2. Clone the repo to your local system
-3. From the command line, cd into the directory
-4. Install lxml and requests using pip package manager
+Use with Python 2.7
+Clone the repo to your local system
+From the command line, cd into the directory
 
-:bash
+Install `lxml` and `requests` using `pip` package manager
+
+```python
     $pip install requirements.txt
+```
 
-5. Run the program by using
+Run the program by using
 
-:bash
+```python  
     $python demoscrape.py > demooutput
+```
 
-6. Parse data as needed.
+Parse data as needed.
 
